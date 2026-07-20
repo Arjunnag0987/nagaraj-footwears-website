@@ -1,0 +1,220 @@
+/*=====================================
+        PAGE BANNER
+======================================*/
+
+.page-banner{
+
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("../images/about/banner.jpg") center/cover no-repeat;
+
+    padding:120px 0;
+    text-align:center;
+    color:#fff;
+
+}
+
+.page-banner h1{
+
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:15px;
+
+}
+
+.page-banner p{
+
+    color:#fff;
+    font-size:18px;
+    margin:0;
+
+}
+
+.page-banner span{
+
+    color:#d4af37;
+
+}
+
+/*=====================================
+        ABOUT COMPANY
+======================================*/
+
+.about-company{
+
+    padding:100px 0;
+    background:#fff;
+
+}
+
+.about-company img{
+
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.about-company h5{
+
+    color:#d4af37;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:15px;
+
+}
+
+.about-company h2{
+
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:25px;
+
+}
+
+.about-company p{
+
+    color:#666;
+    font-size:17px;
+    line-height:1.9;
+    margin-bottom:20px;
+
+}
+
+/*=====================================
+        MISSION SECTION
+======================================*/
+
+.mission{
+
+    padding:100px 0;
+    background:#f8f9fa;
+
+}
+
+.card-box{
+
+    background:#fff;
+    padding:40px 30px;
+    border-radius:15px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    height:100%;
+
+}
+
+.card-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card-box i{
+
+    width:80px;
+    height:80px;
+
+    background:#8B4513;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+
+    font-size:30px;
+
+    margin-bottom:25px;
+
+}
+
+.card-box h3{
+
+    font-size:24px;
+    margin-bottom:15px;
+    color:#222;
+
+}
+
+.card-box p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*=====================================
+        IMAGE EFFECT
+======================================*/
+
+.about-company img:hover{
+
+    transform:scale(1.02);
+    transition:.4s;
+
+}
+
+/*=====================================
+        RESPONSIVE
+======================================*/
+
+@media(max-width:992px){
+
+.about-company{
+
+    text-align:center;
+
+}
+
+.about-company img{
+
+    margin-bottom:40px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.page-banner{
+
+    padding:80px 0;
+
+}
+
+.page-banner h1{
+
+    font-size:36px;
+
+}
+
+.about-company{
+
+    padding:70px 0;
+
+}
+
+.about-company h2{
+
+    font-size:30px;
+
+}
+
+.mission{
+
+    padding:70px 0;
+
+}
+
+.card-box{
+
+    margin-bottom:25px;
+
+}
+
+}

@@ -1,0 +1,22 @@
+#hero{
+
+    min-height:100vh;
+    background:#f8f9fa;
+
+    display:flex;
+    align-items:center;
+
+}
+
+#hero h1{
+
+    font-size:60px;
+    font-weight:700;
+
+}
+
+#hero p{
+
+    font-size:20px;
+
+}

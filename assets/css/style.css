@@ -1,0 +1,270 @@
+/* ================================
+   GOOGLE FONT
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ================================
+   RESET
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#fff;
+    color:#222;
+    overflow-x:hidden;
+    line-height:1.7;
+}
+
+/* ================================
+   VARIABLES
+================================ */
+
+:root{
+
+    --primary:#7B3F00;
+    --secondary:#D4AF37;
+    --dark:#1F1F1F;
+    --light:#F8F9FA;
+    --gray:#666;
+    --white:#ffffff;
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    --radius:12px;
+
+    --transition:.3s ease;
+
+}
+
+/* ================================
+   TYPOGRAPHY
+================================ */
+
+h1,h2,h3,h4,h5,h6{
+
+    color:var(--dark);
+    font-weight:700;
+
+}
+
+p{
+
+    color:var(--gray);
+
+}
+
+a{
+
+    text-decoration:none;
+    transition:var(--transition);
+
+}
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+ul{
+
+    list-style:none;
+}
+
+section{
+
+    padding:90px 0;
+
+}
+
+.container{
+
+    max-width:1200px;
+
+}
+
+/* ================================
+   BUTTONS
+================================ */
+
+.btn-custom{
+
+    background:var(--primary);
+    color:#fff;
+    padding:14px 34px;
+    border-radius:50px;
+    display:inline-block;
+    transition:var(--transition);
+
+}
+
+.btn-custom:hover{
+
+    background:#5d2f00;
+    color:#fff;
+    transform:translateY(-3px);
+
+}
+
+.btn-outline-custom{
+
+    border:2px solid var(--primary);
+    color:var(--primary);
+    padding:14px 34px;
+    border-radius:50px;
+    display:inline-block;
+    transition:var(--transition);
+
+}
+
+.btn-outline-custom:hover{
+
+    background:var(--primary);
+    color:#fff;
+
+}
+
+/* ================================
+   SECTION TITLE
+================================ */
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.section-title span{
+
+    color:var(--secondary);
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+}
+
+.section-title h2{
+
+    font-size:42px;
+    margin-top:10px;
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+    margin:auto;
+
+}
+
+/* ================================
+   COMMON CARD
+================================ */
+
+.card-box{
+
+    background:#fff;
+    border-radius:15px;
+    box-shadow:var(--shadow);
+    transition:var(--transition);
+    padding:30px;
+
+}
+
+.card-box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ================================
+   WHATSAPP BUTTON
+================================ */
+
+.whatsapp-btn{
+
+    position:fixed;
+    bottom:25px;
+    right:25px;
+
+    width:60px;
+    height:60px;
+
+    border-radius:50%;
+    background:#25D366;
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    z-index:9999;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+}
+
+.whatsapp-btn:hover{
+
+    color:#fff;
+    transform:scale(1.1);
+
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+footer{
+
+    background:#111;
+    padding:40px 0;
+    text-align:center;
+
+}
+
+footer p{
+
+    color:#bbb;
+    margin:0;
+
+}
+
+/* ================================
+   SCROLLBAR
+================================ */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f1f1f1;
+
+}
