@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         emailjs.sendForm(
             "service_fbfixph",
-            "template_d7tctsf",
+            "template_ssqmy1t",
             form
         )
         .then(function (response) {
