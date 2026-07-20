@@ -20,3 +20,223 @@
     font-size:20px;
 
 }
+/*==================================
+        TOP HEADER
+==================================*/
+
+.top-header{
+    background:#4a2c1a;
+    color:#fff;
+    padding:10px 0;
+    font-size:14px;
+}
+
+.top-left,
+.top-right{
+    display:flex;
+    align-items:center;
+}
+
+.top-left{
+    gap:25px;
+}
+
+.top-right{
+    justify-content:flex-end;
+}
+
+.top-header a,
+.top-header span{
+    color:#fff;
+    text-decoration:none;
+}
+
+.top-header i{
+    color:#d4af37;
+    margin-right:8px;
+}
+
+/*==================================
+        NAVBAR
+==================================*/
+
+.custom-navbar{
+    background:#fff;
+    padding:15px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.navbar-brand img{
+    width:65px;
+    height:65px;
+    object-fit:contain;
+}
+
+.navbar-brand h3{
+    margin:0;
+    font-size:28px;
+    color:#4a2c1a;
+    font-weight:700;
+}
+
+.navbar-brand small{
+    color:#888;
+    font-size:13px;
+}
+
+.navbar-nav{
+    align-items:center;
+}
+
+.nav-item{
+    margin:0 8px;
+}
+
+.nav-link{
+    color:#333 !important;
+    font-weight:500;
+    transition:.3s;
+    position:relative;
+}
+
+.nav-link:hover{
+    color:#b8860b !important;
+}
+
+.nav-link::after{
+
+    content:'';
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#b8860b;
+
+    transition:.3s;
+}
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+.nav-link.active{
+
+    color:#b8860b !important;
+
+}
+
+/*==================================
+        CALL BUTTON
+==================================*/
+
+.call-btn{
+
+    background:#4a2c1a;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:50px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.call-btn:hover{
+
+    background:#b8860b;
+    color:#fff;
+    transform:translateY(-3px);
+
+}
+
+/*==================================
+        MOBILE MENU
+==================================*/
+
+.navbar-toggler{
+
+    border:none;
+
+}
+
+.navbar-toggler:focus{
+
+    box-shadow:none;
+
+}
+
+.navbar-toggler i{
+
+    font-size:26px;
+    color:#4a2c1a;
+
+}
+
+/*==================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:991px){
+
+.top-left,
+.top-right{
+
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+
+}
+
+.top-right{
+
+    margin-top:10px;
+
+}
+
+.navbar-brand h3{
+
+    font-size:22px;
+
+}
+
+.navbar-brand img{
+
+    width:55px;
+    height:55px;
+
+}
+
+.navbar-nav{
+
+    margin-top:20px;
+    text-align:center;
+
+}
+
+.nav-item{
+
+    margin:10px 0;
+
+}
+
+.call-btn{
+
+    display:inline-block;
+    margin:20px auto 0;
+
+}
+
+}

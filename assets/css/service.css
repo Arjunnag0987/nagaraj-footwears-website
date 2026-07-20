@@ -1,0 +1,441 @@
+/*=========================================
+        PAGE BANNER
+=========================================*/
+
+.page-banner{
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("../images/services/banner.jpg") center center/cover no-repeat;
+    padding:120px 0;
+    text-align:center;
+    color:#fff;
+}
+
+.page-banner h1{
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.page-banner p{
+    font-size:18px;
+    color:#fff;
+}
+
+.page-banner span{
+    color:#d4af37;
+    font-weight:600;
+}
+
+/*=========================================
+        SERVICES SECTION
+=========================================*/
+
+.services{
+    background:#f8f9fa;
+    padding:100px 0;
+}
+
+.service-card{
+
+    background:#fff;
+    border-radius:15px;
+    padding:40px 30px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.4s;
+    height:100%;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.service-card i{
+
+    width:90px;
+    height:90px;
+
+    background:#8B4513;
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+    transition:.4s;
+
+}
+
+.service-card:hover i{
+
+    background:#d4af37;
+    transform:rotate(360deg);
+
+}
+
+.service-card h3{
+
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:18px;
+    color:#222;
+
+}
+
+.service-card p{
+
+    color:#666;
+    line-height:1.8;
+    margin:0;
+
+}
+
+/*=========================================
+        CTA SECTION
+=========================================*/
+
+.cta{
+
+    background:#4b2e1f;
+    color:#fff;
+    padding:90px 0;
+    text-align:center;
+
+}
+
+.cta h2{
+
+    font-size:42px;
+    margin-bottom:20px;
+    color:#fff;
+
+}
+
+.cta p{
+
+    color:#eee;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:35px;
+
+}
+
+.cta .btn{
+
+    background:#d4af37;
+    color:#222;
+    padding:14px 35px;
+    font-weight:600;
+    border:none;
+    border-radius:50px;
+    transition:.3s;
+
+}
+
+.cta .btn:hover{
+
+    background:#fff;
+    color:#4b2e1f;
+
+}
+
+/*=========================================
+        RESPONSIVE
+=========================================*/
+
+@media(max-width:992px){
+
+.page-banner{
+
+    padding:90px 0;
+
+}
+
+.page-banner h1{
+
+    font-size:42px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.page-banner{
+
+    padding:70px 0;
+
+}
+
+.page-banner h1{
+
+    font-size:32px;
+
+}
+
+.service-card{
+
+    padding:30px 20px;
+
+}
+
+.service-card i{
+
+    width:75px;
+    height:75px;
+    font-size:28px;
+
+}
+
+.service-card h3{
+
+    font-size:22px;
+
+}
+
+.cta{
+
+    padding:70px 20px;
+
+}
+
+.cta h2{
+
+    font-size:30px;
+
+}
+
+}
+
+/*==================================
+        TOP HEADER
+==================================*/
+
+.top-header{
+    background:#4a2c1a;
+    color:#fff;
+    padding:10px 0;
+    font-size:14px;
+}
+
+.top-left,
+.top-right{
+    display:flex;
+    align-items:center;
+}
+
+.top-left{
+    gap:25px;
+}
+
+.top-right{
+    justify-content:flex-end;
+}
+
+.top-header a,
+.top-header span{
+    color:#fff;
+    text-decoration:none;
+}
+
+.top-header i{
+    color:#d4af37;
+    margin-right:8px;
+}
+
+/*==================================
+        NAVBAR
+==================================*/
+
+.custom-navbar{
+    background:#fff;
+    padding:15px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.navbar-brand img{
+    width:65px;
+    height:65px;
+    object-fit:contain;
+}
+
+.navbar-brand h3{
+    margin:0;
+    font-size:28px;
+    color:#4a2c1a;
+    font-weight:700;
+}
+
+.navbar-brand small{
+    color:#888;
+    font-size:13px;
+}
+
+.navbar-nav{
+    align-items:center;
+}
+
+.nav-item{
+    margin:0 8px;
+}
+
+.nav-link{
+    color:#333 !important;
+    font-weight:500;
+    transition:.3s;
+    position:relative;
+}
+
+.nav-link:hover{
+    color:#b8860b !important;
+}
+
+.nav-link::after{
+
+    content:'';
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#b8860b;
+
+    transition:.3s;
+}
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+.nav-link.active{
+
+    color:#b8860b !important;
+
+}
+
+/*==================================
+        CALL BUTTON
+==================================*/
+
+.call-btn{
+
+    background:#4a2c1a;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:50px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.call-btn:hover{
+
+    background:#b8860b;
+    color:#fff;
+    transform:translateY(-3px);
+
+}
+
+/*==================================
+        MOBILE MENU
+==================================*/
+
+.navbar-toggler{
+
+    border:none;
+
+}
+
+.navbar-toggler:focus{
+
+    box-shadow:none;
+
+}
+
+.navbar-toggler i{
+
+    font-size:26px;
+    color:#4a2c1a;
+
+}
+
+/*==================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:991px){
+
+.top-left,
+.top-right{
+
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+
+}
+
+.top-right{
+
+    margin-top:10px;
+
+}
+
+.navbar-brand h3{
+
+    font-size:22px;
+
+}
+
+.navbar-brand img{
+
+    width:55px;
+    height:55px;
+
+}
+
+.navbar-nav{
+
+    margin-top:20px;
+    text-align:center;
+
+}
+
+.nav-item{
+
+    margin:10px 0;
+
+}
+
+.call-btn{
+
+    display:inline-block;
+    margin:20px auto 0;
+
+}
+
+}
