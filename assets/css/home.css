@@ -331,3 +331,42 @@
 }
 
 }
+.top-right{
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.scroll-text{
+    width:100%;
+    overflow:hidden;
+}
+
+.scroll-content{
+    display:inline-flex;
+    align-items:center;
+    gap:50px;
+    animation:scrollHeader 50s linear infinite;
+}
+
+.scroll-content span{
+    color:#fff;
+    font-size:14px;
+    font-weight:500;
+}
+
+.scroll-content i{
+    color:#d4af37;
+    margin-right:8px;
+}
+
+@keyframes scrollHeader{
+
+    0%{
+        transform:translateX(100%);
+    }
+
+    100%{
+        transform:translateX(-100%);
+    }
+
+}
